@@ -1,0 +1,218 @@
+body {
+  font-family: "Concert One";
+  text-align: center;
+  padding: 0;
+  background: #f0efef;
+  color: #000;
+  margin: 0;
+}
+
+a {
+    color: inherit;
+}
+
+.nav-wrapper {
+    position: relative;
+    height: 60px;
+    background: #fff;
+}
+
+.nav {
+    width: 100%;
+    background: rgba(255,255,255,0.9);
+    position: fixed;
+    z-index: 3;
+    top: 0;
+}
+
+.nav-inner {
+    padding: 0;
+    margin: 10px;
+    display: inline-block;
+    list-style-type: none;
+}
+
+.nav-inner li {
+    list-style: none;
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px;
+}
+
+.nav-inner li a {
+    color: inherit;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.right {
+    text-align: right;
+}
+
+.center {
+    text-align: center;
+}
+
+.intro-wrapper {
+    background: #61eceb;
+}
+
+.intro-container {
+    margin: 0;
+    position: relative;
+    z-index: 0;
+}
+
+.intro_logo {
+    width: 80%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.intro_logo img {
+    width: 100%;
+}
+
+.intro-container h2 {
+    font-weight: 300;
+    margin: 0;
+}
+
+.intro-container.about {
+    background: #354790;
+    color: #fff;
+    width: auto;
+    margin: 0 auto;
+}
+
+.intro-container.rules {
+    width: auto;
+    margin: 0 auto;
+}
+
+.intro-container.experience {
+    background: #f46559;
+    color: #fff;
+    width: auto;
+    margin: 0 auto;
+}
+
+.intro-inner {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 0 30px;
+    text-align: left;
+}
+
+@media screen and (max-width: 695px) {
+    .intro_logo, img{
+        width: 85%;
+    }
+  }
+
+  @media screen and (max-width: 995px) {
+      .intro_logo, img{
+          width: 90%;
+      }
+    }
+
+    @media screen and (max-width: 1088px) {
+        .intro_logo, img{
+            width: 95%;
+        }
+      }
+
+      @media screen and (max-width: 1295px) {
+          .intro_logo, img{
+              width: 99%;
+          }
+        }
+
+.intro-container.last {
+    box-shadow: 0 15px 25px -2px rgba(36,36,36,0.6);
+        }
+
+.footer {
+    background: #61eceb;
+    padding: 30px 0 5px 0;
+    z-index: 0;
+}
+
+.footer p {
+    margin-top: 10px;
+    color: #e1dce3;
+}
+
+.footer a {
+    text-decoration: none;
+}
+
+.footer a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.social-icons a {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.social-icon {
+    width: 50px;
+    height: 50px;
+    background-size: contain;
+}
+
+.social-icons .social-icon.linkedin {
+    background: url('/Users/Steph/Sites/sadgirlnyc.github.io/public/linkedin.png');
+    background-size: contain;
+}
+
+.social-icon.linkedin:hover {
+    background: url('/Users/Steph/Sites/sadgirlnyc.github.io/public/linkedin-white.png');
+    background-size: contain;
+}
+
+.social-icon.github {
+    background: url('/Users/Steph/Sites/sadgirlnyc.github.io/public/github.png');
+    background-size: contain;
+}
+
+.social-icon.github:hover {
+    background: url('/Users/Steph/Sites/sadgirlnyc.github.io/public/github-white.png');
+    background-size: contain;
+}
+
+.toppage {
+    position: fixed;
+    padding: 0;
+    height: auto;
+    left: 95%;
+    top: 91%;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.toppage-icon {
+    width: 24px;
+    height: 24px;
+    background-size: contain;
+}
+
+.toppage-icon.arrow {
+    background: url('/Users/Steph/Sites/sadgirlnyc.github.io/public/scroll_to_top.png');
+    background-size: contain;
+}
+
+.toppage-icon.arrow:hover {
+    background: url('/Users/Steph/Sites/sadgirlnyc.github.io/public/scroll_to_top.png');
+    background-size: contain;
+    opacity: 0.60;
+}
+
+.tokr-project {
+  width: 150px;
+  height: 150px;
+  background: url('/Users/Steph/Sites/sadgirlnyc.github.io/public/tokr-icon-app.png');
+  background-size: contain;
+}

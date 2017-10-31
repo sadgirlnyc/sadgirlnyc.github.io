@@ -1,0 +1,150 @@
+body {
+  font-family: "Concert One";
+  text-align: center;
+  padding: 0;
+  background: #f0efef;
+  color: #000;
+  margin: 0;
+}
+
+a {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+a:hover {
+    color: #f46559;
+    text-decoration: none;
+}
+
+h1 {
+	font-size: 90px;
+	color: #f46559;;
+	margin: 0;
+	line-height: 1;
+	padding: 0;
+}
+
+.nav-wrapper {
+    position: relative;
+    height: 60px;
+    background: #fff;
+}
+
+.nav {
+    width: 100%;
+    background: rgba(255,255,255,0.9);
+    position: fixed;
+    z-index: 3;
+    top: 0;
+}
+
+.nav-inner {
+    float: right;
+    padding: 0;
+    margin: 10px;
+    display: inline-block;
+    list-style-type: none;
+}
+
+.nav-inner li {
+    list-style: none;
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px;
+}
+
+.nav-inner li a {
+    color: inherit;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.right {
+    text-align: right;
+}
+
+.center {
+    text-align: center;
+}
+
+.info-wrapper {
+    background: #f0efef;
+}
+
+.intro-container {
+    margin: 0;
+    position: relative;
+    z-index: 0;
+    text-align: left;
+}
+
+.intro-container.info {
+    color: #000;
+    width: auto;
+    margin: 0 auto;
+}
+
+.intro-container.project {
+    background: #354790;
+    color: #fff;
+    width: auto;
+    margin: 0 auto;
+}
+
+.color {
+	color: #354790;
+	font-weight: bold;
+	font-size: 36px;
+  text-align: left;
+}
+
+.footer {
+    padding: 30px 0 5px 0;
+    z-index: 0;
+}
+
+.footer p {
+    margin-top: 10px;
+    color: #000;
+}
+
+.footer a {
+    text-decoration: none;
+}
+
+.footer a:hover {
+    color: #354790;
+    text-decoration: underline;
+}
+
+.social-icons a {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.social-icon {
+    width: 50px;
+    height: 50px;
+    background-size: contain;
+}
+
+.social-icons .social-icon.linkedin {
+    background: url('/Users/Steph/Sites/sadgirlnyc.github.io/public/linkedin.png');
+    background-size: contain;
+}
+
+.social-icon.linkedin:hover {
+    background: url('/Users/Steph/Sites/sadgirlnyc.github.io/public/linkedin-white.png');
+    background-size: contain;
+}
+
+.social-icon.github {
+    background: url('/Users/Steph/Sites/sadgirlnyc.github.io/public/github.png');
+    background-size: contain;
+}
+
+.social-icon.github:hover {
+    background: url('/Users/Steph/Sites/sadgirlnyc.github.io/public/github-white.png');
+    background-size: contain;
+}

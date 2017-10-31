@@ -164,22 +164,22 @@ a {
 }
 
 .social-icons .social-icon.linkedin {
-    background: url('/Users/Steph/Sites/sadgirlnyc.github.io/public/linkedin.png');
+    background: url('/public/linkedin.png');
     background-size: contain;
 }
 
 .social-icon.linkedin:hover {
-    background: url('/Users/Steph/Sites/sadgirlnyc.github.io/public/linkedin-white.png');
+    background: url('/public/linkedin-white.png');
     background-size: contain;
 }
 
 .social-icon.github {
-    background: url('/Users/Steph/Sites/sadgirlnyc.github.io/public/github.png');
+    background: url('/public/github.png');
     background-size: contain;
 }
 
 .social-icon.github:hover {
-    background: url('/Users/Steph/Sites/sadgirlnyc.github.io/public/github-white.png');
+    background: url('/public/github-white.png');
     background-size: contain;
 }
 
@@ -200,12 +200,12 @@ a {
 }
 
 .toppage-icon.arrow {
-    background: url('/Users/Steph/Sites/sadgirlnyc.github.io/public/scroll_to_top.png');
+    background: url('/public/scroll_to_top.png');
     background-size: contain;
 }
 
 .toppage-icon.arrow:hover {
-    background: url('/Users/Steph/Sites/sadgirlnyc.github.io/public/scroll_to_top.png');
+    background: url('/public/scroll_to_top.png');
     background-size: contain;
     opacity: 0.60;
 }
@@ -213,6 +213,6 @@ a {
 .tokr-project {
   width: 150px;
   height: 150px;
-  background: url('/Users/Steph/Sites/sadgirlnyc.github.io/public/tokr-icon-app.png');
+  background: url('/public/tokr-icon-app.png');
   background-size: contain;
 }

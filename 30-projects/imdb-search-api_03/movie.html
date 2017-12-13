@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<html>
+    <head>
+        <title>MMDB</title>
+        <meta name="description" content="Search Engine built with jQuery, Bootstrap, IMDB API">
+        <meta charset="utf-8">
+        <meta name="author" content="Stephany Salguero">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css">
+        <script src="js/jquery-2.2.4.min.js"></script>
+        <script src="js/jquery.mobile-1.4.5.min.js"></script>
+    </head>
+    <body>
+      <!-- Header-->
+      <div data-roll="page" id="movie">
+        <div data-roll="header" data-theme="b">
+            <h1>Movie Listings</h1>
+            <a href="imdb.html" class="ui-btn">Back</a>
+          </div>
+      <!-- end of Header -->
+
+      <!-- Main -->
+            <div data-role="main">
+              <div id="movieTop"></div>
+              <br><br>
+              <ul id="movieDetails" data-role="listview"></ul>
+            </div>
+      <!-- end of Main -->
+
+      <!-- Footer -->
+            <div data-role="footer" style="text-align:center" data-theme="b">
+              <p>MMDB &copy; 2017</p>
+            </div>
+          </div>
+      <!-- end of Footer -->
+      <script>
+          var url = "js/app1.js";
+          $.getScript(url);
+      </script>
+    </body>
+  </html>

@@ -1,0 +1,68 @@
+body {
+  font-family: 'Rubik', sans-serif;
+  font-size: 100%;
+  line-height:1.3;
+  text-align: center;
+  background: #C9D7F8;
+  color: #fff;
+}
+
+a {
+    color: inherit;
+}
+
+.right {
+    text-align: right;
+}
+
+.center {
+    text-align: center;
+}
+
+.intro-inner{
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 0 30px;
+    text-align: left;
+}
+
+#lyricDisplay {
+  font-family: 'Rubik Mono One', sans-serif;
+  margin: 0 auto;
+	width: 75%;
+	height: 75px;
+  border-radius: 25px;
+	background: #FFF;
+  color: #000;
+  padding: 25px 10px 15px 10px;
+}
+
+button {
+  border-color: #8F95D3;
+  border-radius: 5px;
+  background-color: #8F95D3;
+  color: #fff;
+  font-size: 18px;
+  font-family: "Rubik Mono One", sans-serif;
+}
+
+.footer {
+    position: absolute;
+    text-align: center;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background: #F1F0F6;
+    padding: 1rem;
+    z-index: 0;
+}
+
+.footer p {
+    margin-top: 10px;
+    color: #000;
+}
+
+.footer a:hover {
+    color: #8F95D3;
+    text-decoration: underline;
+}

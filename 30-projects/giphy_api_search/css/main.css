@@ -1,0 +1,51 @@
+
+body {
+  background-color: #C7EFCF;
+  font-family: 'Nunito', sans-serif;
+  margin-top: 75px;
+  text-align: center;
+}
+
+.title {
+  color: #fff;
+}
+
+#gif {
+  max-width: 1000px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  height: 60%;
+  width: 60%;
+  text-align: center;
+  border-radius: 10px;
+}
+
+#container {
+  max-width: 1000px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.footer {
+        position: absolute;
+        text-align: center;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        background: #F1F0F6;
+        padding: 1rem;
+        z-index: 0;
+}
+
+.footer p a {
+        margin-top: 5px;
+        color: #000;
+}
+
+.footer a:hover {
+        color: #C7EFCF;
+        text-decoration: underline;
+}

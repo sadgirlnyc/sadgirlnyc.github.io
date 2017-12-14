@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Giphy Puppy Generator II</title>
+        <meta name="description" content="Built with jQuery and Giphy API">
+        <meta charset="utf-8">
+        <meta name="author" content="Stephany Salguero">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/main.css">
+        <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+    </head>
+  <body>
+<!-- navigation -->
+  <div class="back-nav">
+    <div class="nav">
+      <p class="left">
+      <a href="https://sadgirlnyc.github.io/code.html"><img src="public/red-left-arrow.png"></a>
+      </p>
+    </div>
+  </div>
+<!-- end of navigation -->
+
+<!-- container -->
+<div class="center">
+  <h1>having a bad day?</h1>
+
+<form id="gif_search" action="https://api.giphy.com/v1/gifs/search?q=puppies&api_key=dc6zaTOxFJmzC&fmt=html" method="get">
+  <input class="btn" type="submit" name="submit" value="click me"><br>
+  </form>
+</div>
+
+<div class="center" id="gif-show"></div>
+
+<!-- end of container -->
+
+<!-- footer -->
+<footer role="contentinfo" class="footer">
+  <div class="intro-inner">
+    <p class="center">
+          Made with <3 by <a href="mailto:sadgirlnyc@gmail.com">Sadgirl Codes NYC</a> 2018 |
+          <a href="https://sadgirlnyc.github.io/code.html">Code</a> | <a href="https://sadgirlnyc.github.io/index.html">Home</a>
+      </p>
+    </div>
+</footer>
+<!-- end of footer -->
+
+<!-- script -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/app.js"></script>
+<!-- end of script -->
+  </body>
+</html>
